@@ -16,9 +16,11 @@ Created using [flo](https://github.com/wurmlab/flo), please cite their paper if 
 > [Molecular Ecology, doi: 10.1111/mec.14054](http://onlinelibrary.wiley.com/doi/10.1111/mec.14054/full). 
 
 [GRCh38/hg38 from 1000 genomes](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/GRCh38_reference_genome/)
+
 [GRCh38/hg38 from 1000 genomes (faster mirror)](https://s3.amazonaws.com/biodata/hg38_bundle)
 
 [GRCh37/b37 from Broad](https://console.cloud.google.com/storage/browser/_details/genomics-public-data/references%2Fb37%2FHomo_sapiens_assembly19.fasta.gz)
+
 [GRCh37/b37 mirror (missing herpesvirus contig)](https://s3.amazonaws.com/biodata/genomes/GRCh37-seq.tar.gz)
 
 # Instructions for reproducing this chain file
@@ -44,7 +46,7 @@ rm -r seq
 ## Get the **flo_opts.yaml** file
 
 ```bash
-
+wget https://raw.githubusercontent.com/roryk/chainfiles/master/1KG_hg38_to_b37/flo_opts.yaml
 ```
 
 ## Run flo
